@@ -1,0 +1,155 @@
+/*
+#  .................
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+#  .................
+*/
+
+body{
+ margin-right: 45px;
+ margin-left: 45px;
+ margin-top: 0px; 
+ font-family: 'Chilanka', cursive;
+}
+
+nav{
+ display: flex;
+ background: #00a99e;
+ padding: 10px;
+ align-items: center;
+ justify-content: space-between;
+}
+
+nav li {
+ padding-left: 20px;
+}
+
+nav ul{
+ display: flex;
+}
+
+nav ul li a{
+ margin-right: 8px; 
+}
+
+nav ul li a:hover{
+ color: darkred;
+}  
+
+nav ul li a{
+ text-decoration: none;
+}
+
+hr{
+ margin-right: 200px;
+ margin-left: 200px;
+ /* color: black; */
+ background-color: black;
+}
+
+h1{
+ text-align: center;
+ margin-top: 40px;
+ margin-bottom: 50px;
+ /* border: 1px solid blue;
+ border-radius: 15px; */
+}
+
+.picture_img{
+ margin-left: 100px;
+}
+
+.container_item{
+ margin: 15px; 
+ display: flex;
+ margin-top: 20px;
+ /* margin-bottom: 20px; */
+ margin-bottom: 80px;
+}
+
+.description{
+ max-width: 570px;
+}
+
+.container_item .description{
+ margin-left: 60px;  
+ margin-right: 60px;  
+}
+
+.youtube{
+ display: flex;
+}
+
+.list{
+ list-style: none;
+ /* text-decoration: none; */
+}
+
+.list_a{
+ list-style: none;
+ /* text-decoration: none; */
+}
+
+.tabla_carecteristica{
+ text-align: center;
+}
+
+.text{
+ /* text-align: center;  ERROR */
+ display: inline-flex; 
+ 
+ /* justify-content: space-between;  ERROR */
+}
+
+.text_first{
+ margin-right: 180px;
+ margin-left: 300px;
+}
+
+.text_first_1{
+ margin-right: 400px;
+ margin-left: 190px;
+}
+
+.text_first_2{
+ margin-right: 370px;
+ margin-left: 150px;
+}
+
+.text_first_3{
+ margin-right: 130px;
+ margin-left: 220px;
+}
+
+.text_first_4{
+ margin-right: 340px;
+ margin-left: 220px;
+}
+
+.text_first_5{
+ margin-right: 200px;
+ margin-left: 200px;
+}
+
+.text_first_6{
+ margin-right: 230px;
+ margin-left: 230px;
+}
+
+.text_first_7{
+ margin-right: 230px;
+ margin-left: 240px;
+}
+
+.text_second{
+ margin-right: 100px;
+ max-width: 400px;
+}
+
+/* .description{
+ display: flex;
+} */

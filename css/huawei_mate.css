@@ -63,6 +63,10 @@ h1{
  margin-left: 100px;
 }
 
+.picture_img img{
+ margin-left: -100px;
+}
+
 .container_item{
  margin: 15px; 
  display: flex;
